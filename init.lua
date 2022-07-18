@@ -1,5 +1,6 @@
 local config = {
   colorscheme = "nordfox",
+  header = require "user.core.header",
   enabled = require "user.core.default_plugins",
   ui = require "user.core.ui",
   plugins = require "user.plugins.plugins",
